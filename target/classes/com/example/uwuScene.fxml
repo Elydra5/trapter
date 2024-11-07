@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.UwUController">
+   <children>
+      <Label layoutX="195.0" layoutY="169.0" text="U" textFill="#f800ff">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="235.0" layoutY="169.0" text="w" textFill="RED">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="277.0" layoutY="169.0" text="U" textFill="#f800ff">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Button layoutX="158.0" layoutY="313.0" mnemonicParsing="false" onAction="#onBwack" text="Back" />
+      <Label layoutX="209.0" layoutY="25.0" prefHeight="25.0" prefWidth="165.0" text=" Author: Klíber Regő Benedek" textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="59.0" layoutY="50.0" prefHeight="17.0" prefWidth="212.0" text=" Copyright: 2024, Klíber Regő Benedek " />
+      <Label layoutX="61.0" layoutY="67.0" text="Group: Szoft II/I/N" />
+      <Label layoutX="61.0" layoutY="84.0" text="Date: 2024-11-07" />
+      <Label layoutX="61.0" layoutY="101.0" text="Github: https://github.com/Elydra5/" />
+   </children>
+</Pane>

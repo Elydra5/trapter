@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.LoadingScene">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;">
+         <children>
+            <!-- <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="220.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="src\main\resources\com\example\images.png" />
+               </image>
+            </ImageView> -->
+            <Label layoutX="112.0" layoutY="160.0" prefHeight="81.0" prefWidth="401.0" text="Üdvözöllek a trapéz területszámító programomban!" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="244.0" layoutY="328.0" text="Készítette: Klíber Benedek" />
+         </children>
+      </Pane>
+   </children>
+</StackPane>
