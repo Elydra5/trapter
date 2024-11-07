@@ -55,8 +55,13 @@ public class MainController {
         Double b = Double.valueOf(bside.getText());
         Double c = Double.valueOf(cside.getText());
         Double d = Double.valueOf(dside.getText());
+        Double elsoresz = a+c;
+        Double masodikresz = 4 * (a-c);
+        Double osztas = elsoresz/masodikresz;
+        Double azahosszucucc = (a+b-c+d)*(a-b-c+d)*(a+b-c-d)*(-a+b+c+d);
+        Double csinaldmagad = Math.sqrt(azahosszucucc);
+        Double result = osztas*csinaldmagad;
 
-        Double result = a+c/4*(a-c)*Math.sqrt((a+b-c+d)*(a-b-c+d)*(a+b-c-d)*(-a+b+c+d));
         areafield.setText(String.valueOf(result));
         System.out.println(result);
     }
